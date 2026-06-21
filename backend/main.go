@@ -135,7 +135,7 @@ func main() {
 					stmt, _ := tx.Prepare(upsertQuery)
 					
 					for query, count := range batch {
-						stmt.Exec(query, 0, count)
+						stmt.Exec(query, count, count)
 						invalidateCache(query)
 					}
 					
