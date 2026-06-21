@@ -2,7 +2,7 @@
 
 A high-performance, low-latency search typeahead and suggestion system. This project implements advanced backend data-system designs including asynchronous batch writing, in-memory distributed caching via consistent hashing, and recency-aware trending search algorithms.
 
-**[👉 Demo Video]**
+**[👉 Demo Video: https://github.com/user-attachments/assets/1f0dc4ca-5aa2-44b0-89bf-c96caae1c628]**
 
 ## ✨ Core Features
 * **Sub-millisecond Search Suggestions:** Uses an indexed SQLite database for lightning-fast prefix matching.
@@ -15,7 +15,9 @@ A high-performance, low-latency search typeahead and suggestion system. This pro
 * **Frontend:** React, Vite
 * **Backend:** Go (Golang) Standard Library
 * **Database:** SQLite (Pure Go Driver, zero external dependencies)
-* **Dataset:** Peter Norvig’s Google Web Trillion Word Corpus (333,333 queries)
+* **Dataset:** Peter Norvig’s Google Web Trillion Word Corpu
+
+s (333,333 queries)
 
 ## 🚀 Quick Start (Local Setup)
 
