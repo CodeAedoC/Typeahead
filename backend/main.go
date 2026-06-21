@@ -250,11 +250,7 @@ func main() {
 		}
 
 		if len(trends) == 0 {
-			trends = []TrendItem{
-				{"golang", 15000}, 
-				{"system design", 12000}, 
-				{"mysql", 9000},
-			}
+			trends = []TrendItem{}
 		}
 		json.NewEncoder(w).Encode(trends)
 	})
